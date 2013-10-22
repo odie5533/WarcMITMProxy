@@ -21,7 +21,7 @@ class WarcOutputSingleton(object):
         return cls._instance
 
     def __init__(self, filename=None):
-        self.use_gzip = False
+        self.use_gzip = True
         self.filename = "out.warc.gz"
         if filename is not None:
             self.filename = filename

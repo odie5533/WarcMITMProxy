@@ -2,7 +2,8 @@ WarcMITMProxy
 =============
 WarcMITMProxy is an HTTP(S) proxy that saves all web traffic to a file. The file
 format used is the Web ARChive (WARC) format (ISO 28500). WarcMITMProxy uses
-mitmproxy.
+mitmproxy. This lets you browse the web using a regular browser, and anything
+you view in the browser is archived in the WARC file.
 
 Prerequisites
 =============
@@ -13,6 +14,7 @@ Usage
 =====
 To use WarcMITMProxy, open a web browser and change the proxy settings to
 connect to 127.0.0.1:8000. Then from a console, run `python warcmitmproxy.py`.
+Any browsing activity is passed through the proxy and saved into a WARC file.
 
 SSL Certificate
 ===============
