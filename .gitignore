@@ -1,1 +1,3 @@
 *.pyc
+*.warc.gz
+*.warc

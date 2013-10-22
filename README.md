@@ -15,6 +15,8 @@ Usage
 To use WarcMITMProxy, open a web browser and change the proxy settings to
 connect to 127.0.0.1:8000. Then from a console, run `python warcmitmproxy.py`.
 Any browsing activity is passed through the proxy and saved into a WARC file.
+I recommend browsing with [QupZilla](http://www.qupzilla.com/), which is a
+portable, lightweight browser based WebKit.
 
 SSL Certificate
 ===============

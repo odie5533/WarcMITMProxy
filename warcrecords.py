@@ -1,5 +1,5 @@
 # Copyright (C) David Bern
-# See LICENSE.md for details
+# See COPYRIGHT.md for details
 
 
 import hashlib, uuid, base64
